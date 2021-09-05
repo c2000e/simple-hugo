@@ -1,0 +1,9 @@
+{{ define "main" }}
+    <h1>Tags</h1>
+    <ul>
+        {{ range .Paginator.Pages.ByTitle }}
+            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+        {{ end }}
+    </ul>
+    {{ partial "pagination.html" . }}
+{{ end }}

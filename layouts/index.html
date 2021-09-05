@@ -1,0 +1,6 @@
+{{ define "main" }}
+    {{ .Content }}
+    {{ range .Site.RegularPages }}
+        {{ partial "summary.html" . }}
+    {{ end }}
+{{ end }}
