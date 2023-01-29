@@ -15,7 +15,7 @@ time {
 
 body {
     max-width: 600px;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 0 10px;
     font: 14px/1.5 monospace;
 }
@@ -38,10 +38,6 @@ h1, h2, h3 {
 
 header {
     margin-bottom: 20px;
-}
-
-#title {
-    margin-bottom: 5px;
 }
 
 .summary {
