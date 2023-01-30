@@ -32,12 +32,24 @@ a:hover {
     text-decoration: underline;
 }
 
-h1, h2, h3 {
-    line-height: 1.2;
-}
-
 header {
     margin-bottom: 20px;
+}
+
+h1 {
+    font: 24px/1.5 monospace;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font: 20px/1.5 monospace;
+    font-weight: bold;
+}
+
+h3 {
+    font: 16px/1.5 monospace;
+    font-weight: bold;
 }
 
 .summary {
